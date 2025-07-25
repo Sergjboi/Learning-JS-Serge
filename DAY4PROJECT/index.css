@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top, rgba(163, 160, 160, 0.5)50%, rgba(163, 160, 160, 0.5)50%), url(t.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+  background-color: #4f46e5; /* fallback color */
+}
+
+.card-body {
+  padding: 25px 20px;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.plan {
+  background-color: #f9fafb;
+  border-radius: 10px;
+  padding: 12px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.plan-icon {
+  font-size: 1.5rem;
+}
+
+.plan-details {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.plan-title {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.plan-price {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.change-link {
+  font-size: 0.9rem;
+  color: #4f46e5;
+  text-decoration: underline;
+}
+
+.payment-btn {
+  width: 100%;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.3s;
+}
+
+.payment-btn:hover {
+  background-color: #4338ca;
+}
+
+.cancel-link {
+  font-size: 0.9rem;
+  color: #6b7280;
+  text-decoration: none;
+}
+
+.cancel-link:hover {
+  text-decoration: underline;
+}
