@@ -129,7 +129,8 @@
       const existing = cart.find(item => item.name === name);
       if (existing) {
         existing.quantity += 1;
-      } else {
+      } else {increaseQty
+// If item doesn't exist, add it with quantity 1                                                                                                                                                                                                                                                                                                                                                                                                      :
         cart.push({ name, price, quantity: 1 });
       }
       saveCart();
